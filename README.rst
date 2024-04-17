@@ -73,7 +73,7 @@ Installation
 
 .. code:: bash
 
-    $ pip install jsonschema
+    pip install jsonschema
 
 
 Extras
@@ -88,7 +88,7 @@ They can be used when installing in order to include additional dependencies, e.
 
 .. code:: bash
 
-    $ pip install jsonschema'[format]'
+    pip install jsonschema'[format]'
 
 Be aware that the mere presence of these dependencies – or even the specification of ``format`` checks in a schema – do *not* activate format checks (as per the specification).
 Please read the `format validation documentation <https://python-jsonschema.readthedocs.io/en/latest/validate/#validating-formats>`_ for further details.
@@ -111,7 +111,7 @@ Benchmarks
 ``jsonschema``'s benchmarks make use of `pyperf <https://pyperf.readthedocs.io>`_.
 Running them can be done via::
 
-      $ nox -s perf
+      nox -s perf
 
 
 Community
